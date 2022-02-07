@@ -47,7 +47,7 @@ app.all("*", (req, res) => {
                 ui-title {
                     display: block;
                     font-size: 40px;
-                    margin: 1rem;
+                    margin: 1.5rem;
                 }
 
                 ui-logo {
@@ -58,7 +58,7 @@ app.all("*", (req, res) => {
                 ui-lorem {
                     display: block;
                     white-space: pre-wrap;
-                    margin: 1rem;
+                    margin: 1.5rem;
                     background: #eee;
                 }
 
