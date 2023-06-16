@@ -1,7 +1,15 @@
 {
     "name": "lorem",
     "version": "1.0.33",
+    "scripts": {
+        "start": "node index.js",
+        "watch": "sass --watch index.scss built/index.css & nodemon index.js"
+    },
     "dependencies": {
         "express": "*"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22",
+        "sass": "^1.63.4"
     }
 }

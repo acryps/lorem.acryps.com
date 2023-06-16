@@ -1,0 +1,37 @@
+ui-image-samples {
+	ui-images {
+		display: flex;
+		flex-wrap: wrap;
+
+		margin-inline: calc(var(--spacing) / 2 * -1);
+
+		ui-image {
+			position: relative;
+
+			width: 30rem;
+			height: 30rem;
+
+			margin-bottom: var(--spacing);
+			margin-inline: calc(var(--spacing) / 2);
+
+			color: var(--panel-color);
+			background: var(--panel-background);
+			border: var(--panel-border);
+
+			ui-dimensions {
+				position: absolute;
+				top: var(--spacing);
+				left: var(--spacing);
+
+				text-shadow: 0 0 0.5rem var(--panel-background);
+			}
+
+			img {
+				width: 100%;
+				height: 100%;
+
+				object-fit: contain;
+			}
+		}
+	}
+}

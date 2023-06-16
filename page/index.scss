@@ -1,0 +1,61 @@
+:root {
+	--spacing: 1.5rem;
+
+	--page-color: #fff;
+	--page-background: #000;
+	--page-primary: #4339ff;
+	
+	--panel-color: #fff;
+	--panel-background: #04283b;
+	--panel-hover-color: #fff;
+	--panel-hover-background: #4339ff;
+	--panel-border-size: 1px;
+	--panel-border: var(--panel-border-size) solid #86888c;
+
+	--font-body: n27;
+	--font-mono: silka-mono;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+
+	color: var(--page-color);
+	background: var(--page-background);
+
+	font-family: var(--font-body);
+}
+
+ui-navigation {
+	display: block;
+
+	position: sticky;
+	top: 0;
+
+	padding: var(--spacing);
+	margin-bottom: var(--spacing);
+
+	font-family: var(--font-mono);
+	font-size: 1.5rem;
+
+	border-bottom: 1px solid var(--page-color);
+	backdrop-filter: brightness(0.5) blur(30px);
+
+	ui-logo {
+		font-family: var(--font-body);
+	}
+}
+
+@import './home/index.scss';
+
+@font-face {
+	font-family: n27;
+	
+	src: url('./assets/fonts/n27.otf');
+}
+
+@font-face {
+	font-family: silka-mono;
+	
+	src: url('./assets/fonts/silka-mono.otf');
+}

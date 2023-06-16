@@ -1,0 +1,21 @@
+{
+	"scripts": {
+		"build": "parcel build index.html --no-source-maps --no-scope-hoist --dist-dir built",
+		"watch": "parcel watch index.html --no-hmr --no-cache --dist-dir built"
+	},
+	"dependencies": {
+		"mapbox-gl": "^2.15.0",
+		"vldom": "^9.1.4",
+		"vldom-default-directives": "^1.4.0"
+	},
+	"devDependencies": {
+		"@parcel/config-default": "^2.9.1",
+		"@parcel/transformer-inline-string": "^2.9.1",
+		"@parcel/transformer-sass": "^2.7.0",
+		"@types/mapbox-gl": "^2.7.11",
+		"javascript-obfuscator": "^4.0.0",
+		"parcel": "^2.7.0",
+		"parcel-transformer-vldom": "^1.0.1"
+	},
+	"browserslist": "last 5 years"
+}

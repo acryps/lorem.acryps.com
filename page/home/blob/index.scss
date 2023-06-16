@@ -1,0 +1,26 @@
+ui-data-samples {
+	ui-files {
+		display: flex;
+		flex-wrap: wrap;
+
+		margin-inline: calc(var(--spacing) / 2 * -1);
+
+		ui-data-blob {
+			width: 20rem;
+
+			padding: var(--spacing);
+			margin-bottom: var(--spacing);
+			margin-inline: calc(var(--spacing) / 2);
+
+			color: var(--panel-color);
+			background: var(--panel-background);
+			border: var(--panel-border);
+
+			&:hover {
+				color: var(--panel-hover-color);
+				background: var(--panel-hover-background);
+				cursor: pointer;
+			}
+		}
+	}
+}

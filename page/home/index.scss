@@ -1,0 +1,23 @@
+@import './text/index.scss';
+@import './blob/index.scss';
+@import './image/index.scss';
+@import './document/index.scss';
+@import './archive/index.scss';
+
+ui-samples {
+	display: block;
+
+	> * {
+		display: block;
+		margin-inline: var(--spacing);
+		margin-bottom: calc(var(--spacing) * 2);
+
+		> ui-title {
+			display: block;
+			margin-bottom: var(--spacing);
+
+			font-size: 1.5rem;
+			text-transform: uppercase;
+		}
+	}
+}

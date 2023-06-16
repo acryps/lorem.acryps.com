@@ -1,0 +1,45 @@
+ui-text-samples {
+	ui-matcher {
+		display: flex;
+		justify-content: space-between;
+
+		padding: var(--spacing);
+		margin-bottom: var(--spacing);
+
+		color: var(--panel-color);
+		background: var(--panel-background);
+		border: var(--panel-border);
+
+		ui-regex {
+			display: block;
+
+			font-family: var(--font-mono);
+			user-select: all;
+		}
+	}
+
+	ui-text-samples {
+		display: flex;
+		margin-inline: calc(var(--spacing) / 2 * -1);
+
+		ui-text-sample {
+			flex-basis: 0;
+			flex-grow: 1;
+
+			width: auto;
+			max-height: 30vh;
+
+			overflow: hidden;
+
+			margin-inline: calc(var(--spacing) / 2);
+			padding: var(--spacing);
+
+			color: var(--panel-color);
+			background: var(--panel-background);
+			border: var(--panel-border);
+
+			white-space: pre-wrap;
+			user-select: all;
+		}
+	}
+}
