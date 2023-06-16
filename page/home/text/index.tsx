@@ -7,7 +7,7 @@ export class TextComponent extends Component {
 			<ui-title>Text samples</ui-title>
 
 			<ui-matcher>
-				<ui-regex>Lorem[\s\.A-Za-z]+</ui-regex>
+				<ui-regex>Lorem[\s\n\.A-Za-z]+</ui-regex>
 
 				<ui-hint>
 					Use this regex to search for lorem content in the source of your application
